@@ -1,0 +1,33 @@
+.new-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+
+    &__form {
+        width: 80%;
+        border: 1px solid #a8cef0;
+        border-radius: 8px;
+        background-color: #dce3e8;
+        padding: 20px;
+
+        &__title {
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+
+        &__additional-fields {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            &__field {
+                width: 50%;
+            }
+        }
+    }
+}

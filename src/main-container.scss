@@ -1,0 +1,28 @@
+.template-container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) and (min-width: 1000px) {
+  .template-container {
+    width: 872px;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 768px) {
+  .template-container {
+    width: 728px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+  .template-container {
+    width: 460px;
+  }
+}
+
+@media (max-width: 479px) and (min-width: 360px) {
+  .template-container {
+    width: 320px;
+  }
+}
